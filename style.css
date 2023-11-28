@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f01695;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 280px;
+    height: 500px;
+    border-radius: 5px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+figure {
+     text-align: center;
+ }
+
+#titulos {
+    margin-top: 40px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permitir que los elementos se envuelvan a la siguiente fila */
+    justify-content: space-between;
+    /* Distribuir los elementos a lo largo del contenedor */
+    align-items: flex-start;
+    /* Alinear los elementos en la parte superior del contenedor */
+    max-width: 800px;
+    /* Ancho máximo del contenedor */
+    margin: 0 auto;
+    /* Centrar el contenedor en la página */
+}
+
+/* Estilos para cada sección (imagen y texto) */
+.section {
+    text-align: center;
+    /* Alinear al centro para que la imagen y el texto estén centrados */
+    width: 48%;
+    /* Ancho del 48% para permitir espacio entre las imágenes */
+    margin-bottom: 20px;
+    /* Espacio entre las filas */
+}
+
+/* Ajustar el ancho en pantallas más pequeñas */
+@media (max-width: 600px) {
+    .section {
+        width: 100%;
+        /* Cambiar a ancho completo en pantallas más pequeñas */
+    }
+}
