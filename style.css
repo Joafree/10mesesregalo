@@ -65,9 +65,19 @@ figure {
 }
 
 /* Ajustar el ancho en pantallas más pequeñas */
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px; /* Ajusta el tamaño de la fuente para dispositivos móviles */
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
     .section {
-        width: 100%;
-        /* Cambiar a ancho completo en pantallas más pequeñas */
+        width: 45%; /* Ajusta el ancho de las secciones en dispositivos móviles */
+        margin-bottom: 20px;
     }
 }
