@@ -69,14 +69,3 @@ figure {
         width: 100%; /* Cambiar a ancho completo en pantallas más pequeñas */
       }
     }
-
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-
-    .section {
-        width: 45%; /* Ajusta el ancho de las secciones en dispositivos móviles */
-        margin-bottom: 20px;
-    }
