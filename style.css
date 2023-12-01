@@ -64,10 +64,10 @@ figure {
     /* Espacio entre las filas */
 }
 
-/* Ajustar el ancho en pantallas más pequeñas */
-@media only screen and (max-width: 600px) {
-    body {
-        font-size: 14px; /* Ajusta el tamaño de la fuente para dispositivos móviles */
+@media (max-width: 600px) {
+      .section {
+        width: 100%; /* Cambiar a ancho completo en pantallas más pequeñas */
+      }
     }
 
     .container {
